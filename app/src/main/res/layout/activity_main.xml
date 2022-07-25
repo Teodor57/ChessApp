@@ -19,16 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="307dp"
-        android:layout_height="196dp"
-        android:layout_marginStart="124dp"
-        android:rotationX="-4"
-        android:rotationY="13"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="411dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -68,4 +58,12 @@
         app:layout_constraintHorizontal_bias="0.708"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="258dp"
+        android:layout_height="415dp"
+        app:srcCompat="@drawable/exemplu_mutari"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="286dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
